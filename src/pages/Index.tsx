@@ -123,7 +123,7 @@ const Index = () => {
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">Competitive Leaderboard</h2>
               <p className="text-lg text-gray-600">
-              See how you compare with your batch's average—anonymously, of course (unless you're in the top 5 😉 <SmilePlus className='inline h-5 w-5' />).              </p>
+              See how you compare with your batch's average—anonymously, of course (unless you're in the top 10 😉).              </p>
             </div>
           </motion.div>
         </div>
@@ -176,7 +176,7 @@ const Index = () => {
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">Openings</h2>
               <p className="text-lg text-gray-600">
-                We'll provide you with latest openings and will <b>CONNECT YOU WITH ALUMNI'S YOU CAN TAKE REFERAL FROM!</b> for each goddamn opening!!
+                We'll provide you with latest openings and will <b>CONNECT YOU WITH ALUMNI YOU CAN TAKE REFERAL FROM!</b> for each goddamn opening!!
                 </p>
             </div>
           </motion.div>
@@ -342,9 +342,11 @@ const Index = () => {
                 
                 <div className="mt-8 text-center">
                   <p className="text-2xl font-bold mb-4">Price: ₹1499/- only</p>
+                  <a href="https://forms.gle/WhzrMVavYk6EmUWFA" target="_blank" rel="noopener noreferrer">
                   <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors">
                     Apply
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -422,9 +424,11 @@ const Index = () => {
                 </div>
                 <div className="p-6 border-t text-center">
                     <p className="text-xl font-bold mb-4">Price: {plan.price} only</p>
+                    <a href="https://forms.gle/FNz67wBVTp3jUc1F6" target="_blank" rel="noopener noreferrer">
                     <button className="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition-colors">
                       Apply
                     </button>
+                    </a>
                   </div>
                 </div>
             ))}
