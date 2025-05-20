@@ -373,7 +373,7 @@ const Index = () => {
             <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                price: "₹999/-",
+                price: "₹1299/-",
                 title: "Basic Plan",
                 features: [
                   "1:1 Personal Mentorship",
