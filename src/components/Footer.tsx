@@ -15,20 +15,20 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Empowering students with personalized mentorship to secure their dream placements.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Linkedin size={20} />
-              </a>
-            </div>
+              {/* <div className="flex space-x-4">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  <Facebook size={20} />
+                </a>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  <Twitter size={20} />
+                </a>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  <Instagram size={20} />
+                </a>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  <Linkedin size={20} />
+                </a>
+              </div> */}
           </div>
           
           <div>
@@ -70,9 +70,17 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4">Contact Us</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">
-                Email: twofoldtwinsinc@gmail.com
-              </li>
+            <li className="text-gray-400">
+              Email:{" "}
+              <a
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=support@genup.live&su=Product%20Enquiry%20${new Date().toLocaleDateString()}&body=Hi%20GenUP%20Team,`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
+                support@genup.live
+              </a>
+            </li>
               <li className="text-gray-400">
                 Phone: +91 6375257460 <br />
                 Phone: +91 7742149577
@@ -83,7 +91,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>© {currentYear} MentorMe. All rights reserved.</p>
+          <p>© {currentYear} GenUP. All rights reserved.</p>
         </div>
       </div>
     </footer>

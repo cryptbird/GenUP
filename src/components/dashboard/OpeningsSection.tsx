@@ -33,7 +33,7 @@ const jobOpenings: JobOpening[] = [
     title: 'Software Engineer Intern',
     location: 'Bangalore, India',
     ctc: '₹1.5L/month stipend',
-    applyLink: '#',
+    applyLink: 'https://www.google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE',
     referralLink: '#'
   },
   {
@@ -43,7 +43,7 @@ const jobOpenings: JobOpening[] = [
     title: 'Product Manager Intern',
     location: 'Hyderabad, India',
     ctc: 'Competitive Stipend',
-    applyLink: '#',
+    applyLink: 'https://jobs.careers.microsoft.com/global/en/job/1822039/Product-Manager',
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const jobOpenings: JobOpening[] = [
     title: 'SDE Intern',
     location: 'Remote',
     ctc: '₹1.2L/month stipend',
-    applyLink: '#',
+    applyLink: 'https://www.amazon.jobs/en/jobs/2979062/software-development-engineer-digital-acceleration',
     referralLink: '#'
   },
   {
@@ -62,7 +62,7 @@ const jobOpenings: JobOpening[] = [
     title: 'Technology Analyst Intern',
     location: 'Mumbai, India',
     ctc: 'Good Stipend',
-    applyLink: '#'
+    applyLink: 'https://www.jpmorganchase.com/careers/explore-opportunities/students-and-graduates'
   },
     {
     id: 5,
@@ -71,17 +71,17 @@ const jobOpenings: JobOpening[] = [
     title: 'Cloud Infrastructure Intern',
     location: 'Pune, India',
     ctc: 'Industry Standard',
-    applyLink: '#',
+    applyLink: 'https://www.oracle.com/careers/students-grads/internships/',
     referralLink: '#'
   },
   {
     id: 6,
     companyLogo: 'https://www.cpapracticeadvisor.com/wp-content/uploads/2020/08/kpmg_logo.5f285e905d1fe.png', // Updated KPMG
     companyName: 'KPMG',
-    title: 'Data Analyst Intern',
+    title: 'IT Audit - Graduate Trainee',
     location: 'Gurgaon, India',
     ctc: 'Competitive Stipend',
-    applyLink: '#'
+    applyLink: 'https://kpmg.peoplehr.net/Pages/JobBoard/Opening.aspx?v=d496e649-f7d3-4e05-a04a-f21c9997c164'
   },
 ];
 
